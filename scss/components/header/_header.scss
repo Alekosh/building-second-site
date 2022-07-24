@@ -73,3 +73,81 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   }
+
+// main
+.main {
+  display: flex;
+}
+.main__title {
+  text-align: center;
+}
+.main h3 {
+  font-size: 28px;
+  width: 578px;
+  height: 80px;
+  line-height: 40px;
+  margin-top: 100px;
+}
+.main p {
+  font-size: 16px;
+  width: 658px;
+  height: 112px;
+  line-height: 28px;
+  margin: 16px 0 21px 0;
+}
+.main button {
+  color: #A25F4B;
+  width: 133px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  background: none;
+  position: relative;
+}
+.main button:before{
+  content: "";
+  position: absolute;
+  height:2px;
+  background: rgba(162, 95, 75, 0.2);
+  width: 133px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//
+
+h6{
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D1F2E;
+  margin: 100px 0;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.item h3{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1D1F2E;
+  text-align: center;
+  margin: 35px 0 5px 0;
+}
+.item span {
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(29, 31, 46, 0.7);
+  margin-bottom: 15px;
+}
+
+.Products .item:nth-child(n+4):nth-child(-n+9) {
+  margin-top: 50px;
+}
