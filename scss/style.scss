@@ -1,8 +1,10 @@
 @import "./common/_index.scss";
 @import "./components/_index.scss";
 
+$primary: #1D1F2E;
+
 .container {
-	max-width: 1170px;
+	max-width: 965px;
 	padding: 0 15px;
 	margin: 0 auto;
 }

@@ -3,6 +3,9 @@
 <head>
     <title>Document</title>
     <!-- Подключение файлов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,19 +15,34 @@
 <!-- CTRL+ALT+1 -->
 <!-- CTRL+ALT+2 -->
 <body>
-  <div id="parent">
-    
-  </div>
-  
-  <script>
-    let parent = document.querySelector('#parent');
+  <header class="header">
+    <nav class="nav">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo"> <a href="#"> <img src="./img/logo.png" alt="logo"></a> </div>
 
-for (let i = 1; i <= 9; i++) {
-	let li = document.createElement('li');
-	li.innerHTML = '!';
-	
-	parent.appendChild(li);
-}
-  </script>
+          <ul class="menu__list">
+            <li class="menu__item"> <a href="#" class="menu__item-link">Home</a> </li>
+            <li class="menu__item"> <a href="#" class="menu__item-link">Our Products</a> </li>
+            <li class="menu__item"> <a href="#" class="menu__item-link">Blog</a> </li>
+            <li class="menu__item"> <a href="#" class="menu__item-link">About</a> </li>
+            <li class="menu__item"> <a href="#" class="menu__item-link">Contact</a> </li>
+            <li class="menu__item"> <a href="#" class="menu__item-link">Styleguide</a> </li>
+          </ul>
+          
+          <button class="btn-sort"> <img src="./img/cart.svg" alt="Корзина">Cart<button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="hero__title">
+        <h6>Best place to buy design</h6>
+        <h1>Coffee Mugs</h1>
+        <p>The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</p>
+        <span>Explore Our Products</span>
+      </div>
+    </div>
+  </header>
 </body>
 </html>

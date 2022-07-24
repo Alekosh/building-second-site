@@ -1,6 +1,75 @@
-header {
-  color: blue;
+.header {
+
 }
-.lol {
-  color: aqua;
+.nav {
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.logo {
+}
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  
+}
+.menu__item a{
+  color: $primary;
+}
+.menu__item:not(:last-child) {
+  margin-right: 30px;
+}
+.menu__item-link {
+}
+.btn-sort {
+  width: 90px;
+  height: 26px;
+}
+
+///////////////////////
+
+.hero {
+  background-color: #050827;
+  height: 530px;
+  margin-top: 100px;
+  color: $white;
+
+  background-image: url('/img/hero.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero__title {
+  text-align: center;
+}
+.hero h6{
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 159px;
+}
+.hero h1 {
+  font-size: 47px;
+  line-height: 60px;
+  margin: 10px 0;
+}
+.hero p {
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+.hero span {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+  color: $primary;
+  padding: 0 30px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
