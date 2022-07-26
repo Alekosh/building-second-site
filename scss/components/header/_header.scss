@@ -151,3 +151,68 @@ h6{
 .Products .item:nth-child(n+4):nth-child(-n+9) {
   margin-top: 50px;
 }
+
+////////
+/// 
+.offer {
+
+}
+.offer__let {
+  display: flex;
+}
+.offer__left {
+  display: grid;
+  grid-template-columns: 280px 160px;
+  grid-template-rows: 280px;
+}
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.box2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 20px;
+}
+.box3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.offer_together {
+  margin-left: 20px;
+}
+.offer__right {
+  margin-left: 80px;
+  width: 460px;
+  height: 460px;
+}
+.offer__right h2 {
+  font-size: 36px;
+  line-height: 50px;
+  margin-top: 14px;
+  height: 100px;
+  width: 237px;
+}
+.offer__right h6 {
+  margin: 0;
+}
+.offer__right p {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 15px 0 34px 0;
+  height: 56px;
+  width: 353px;
+}
+.btn {
+  background: #1D1F2E;
+  color: $white;
+  width: 173px;
+  height: 36px;
+  text-transform: uppercase;
+}
